@@ -22,7 +22,7 @@ I'm a quantitative researcher and aspiring trader passionate about applying rigo
 ## Featured Projects
 
 ### High-Frequency Price Movement Prediction
-Deep learning classifier for order book analysis achieving **71.27% validation accuracy**
+Deep learning classifier for order book analysis achieving **71.29% validation accuracy**
 - Feature engineering from 4-level limit order book data (bid/ask volumes, depth imbalances, concentration metrics)
 - Compared feedforward vs. recurrent neural network architectures
 - **Tech**: Python, TensorFlow/Keras, Pandas, NumPy
