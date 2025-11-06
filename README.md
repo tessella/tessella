@@ -1,4 +1,4 @@
-# Hi, I'm Sebastian Córdoba 👋
+# Hi, I'm Sebastián Córdoba 👋
 
 MSc Mathematics & Finance @ Imperial College London | Quantitative Trading & Research
 
