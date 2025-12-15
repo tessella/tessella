@@ -9,7 +9,7 @@ MSc Mathematics & Finance @ Imperial College London | Quantitative Trading & Res
 
 I'm a quantitative researcher and aspiring trader passionate about applying rigorous mathematics and machine learning to financial markets. Currently pursuing an MSc in Mathematics and Finance at Imperial College London (funded by Fundación Ramón Areces scholarship), I combine a First Class Honours degree in Mathematics (85%) with hands-on experience in systematic trading, financial modeling, and software development.
 
-**What drives me**: Personal experience with the 2008 financial crisis shaped my commitment to developing more accurate quantitative models. I'm fascinated by markets at the intersection of mathematics, technology, and real-world impact; particularly energy and commodities trading.
+**What drives me**: Personal experience with the 2008 financial crisis shaped my commitment to developing more accurate quantitative models. I'm fascinated by markets at the intersection of mathematics, technology, and real-world impact.
 
 ## Current Work
 
