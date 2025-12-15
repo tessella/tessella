@@ -74,7 +74,7 @@ Built complete feedforward network without ML libraries
 
 ## Professional Experience
 
-**Solutions Analyst** @ LexisNexis, London (2023-2024)
+**Solutions Analyst** @ LexisNexis, London (2023-2025)
 - Led patent intelligence delivery for Fortune 500 tech and defense clients, managing complex classifier projects (10-40+ components) and coordinating cross-functional analyst teams of 3-4 members
 - Managed £1M+ client portfolio as primary technical lead across three major accounts, overseeing scope definition, quality assurance, and stakeholder presentations with 100% on-time delivery
 - Built AI classifiers for 70M+ patent database, working with clients including Google DeepMind and BAE Systems on advanced technology identification (AI algorithms, manufacturing processes)
@@ -86,7 +86,7 @@ Built complete feedforward network without ML libraries
 
 ## Education
 
-**Imperial College London** | MSc Mathematics and Finance (2024-2025)
+**Imperial College London** | MSc Mathematics and Finance (2025-2026)
 - Ramón Areces Foundation Scholar (full scholarship)
 - Focus: Machine Learning, Derivatives Pricing, Systematic Trading, Optimisation
 
