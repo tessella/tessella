@@ -13,6 +13,11 @@ I'm a quantitative researcher and aspiring trader passionate about applying rigo
 
 ## Current Work
 
+**(WIP) Paper Replication and Extension**: [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)
+- Authors present a novel use of the signature transform in conjunction with a 2-step LASSO regression model
+- Regression model used to predict freight marketplace rates for Amazon
+- Aim: replicate results and deploy methodology to predict World Container Index for maritime freight rates
+
 **Quantitative Trader & Researcher** @ Team Delta, QTC Alpha Fund (Imperial College)
 - Developing systematic trading strategies for US equities and crypto markets under ex-JP Morgan researcher supervision
 - Built Python-based mean-reversion strategy using z-score triggers with dynamic position management
@@ -31,7 +36,23 @@ Gradient boosting regression model with **R² = 0.951**
 - Engineered windchill index combining temperature and wind data
 - Demonstrated domain knowledge translation into predictive features
 - **Tech**: Python, XGBoost, Sklearn, Feature Engineering
-  
+
+### Quantitative Risk Management
+#### Tesla Risk Forecasting with EVT
+ARCH Models & Extreme Value Theory
+- Implemented GARCH(1,1) volatility modeling on Tesla returns
+- Applied Extreme Value Theory with GPD for tail risk
+- Compared Normal, Student-t, and GPD residual distributions
+- Generated out-of-sample VaR & ES forecasts at 95% and 99% levels
+- **Tech**: Python, ARCH, EVT, Risk Metrics, Backtesting, Statistical Testing
+#### DOG ETF Risk Analysis</h3>
+Comparative VaR & ES Forecasting   
+- Historical Simulation with 500-day rolling window
+- Filtered Historical Simulation with EWMA (α=0.06)
+- FHS-GARCH(1,1) for dynamic volatility modeling
+- FHS-EWMA achieved best performance across coverage tests
+- **Tech**: Python, FHS, EWMA, ARCH, Statistical Testing, Backtesting
+
 ### Neural Networks from Scratch
 Built complete feedforward network without ML libraries
 - Gradient descent and cost function optimization implemented manually
