@@ -17,7 +17,6 @@ I'm a quantitative researcher and aspiring trader passionate about applying rigo
 - Developing systematic trading strategies for US equities and crypto markets under ex-JP Morgan researcher supervision
 - Built Python-based mean-reversion strategy using z-score triggers with dynamic position management
 - Statistical validation via Monte Carlo permutations on minute-level tick data
-- Focus on statistical arbitrage and market-neutral strategies
 
 ## Featured Projects
 
