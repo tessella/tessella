@@ -77,7 +77,7 @@ Built complete feedforward network without ML libraries
 **Solutions Analyst** @ LexisNexis, London (2023-2025)
 - Led patent intelligence delivery for Fortune 500 tech and defense clients, managing complex classifier projects (10-40+ components) and coordinating cross-functional analyst teams of 3-4 members
 - Managed £1M+ client portfolio as primary technical lead across three major accounts, overseeing scope definition, quality assurance, and stakeholder presentations with 100% on-time delivery
-- Built AI classifiers for 70M+ patent database, working with clients including Google DeepMind and BAE Systems on advanced technology identification (AI algorithms, manufacturing processes)
+- Built AI classifiers for 70M+ patent database, working with clients including Google DeepMind on advanced technology identification (AI algorithms, manufacturing processes, pharmaceutical developments...)
 
 **Quantitative Investment Analyst** @ SafeBrok Europe, Madrid (2022-2022)
 - Contributed to **20% fund growth** during market downturn
