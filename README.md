@@ -83,7 +83,7 @@ Built complete feedforward network without ML libraries
 - 📧 Email: sebastian.cordobat@proton.me
 - 💼 LinkedIn: [Connect with me](#) <!-- Add your LinkedIn URL -->
 - 📍 Location: London, UK
-
+- 🗺️ Work permits (no visa required): United Kingdom, USA, European Union
 ---
 
 > "I'm driven to understand markets through mathematics and build systematic strategies that combine rigorous quantitative analysis with practical implementation."
