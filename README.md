@@ -1,29 +1,42 @@
 # Hi, I'm Sebastián Córdoba 👋
 
-MSc Mathematics & Finance @ Imperial College London | Quantitative Trading & Research
+MSc Mathematics & Finance @ Imperial College London | ML & Quantitative Research
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sebastian-cordoba-topete-622960271)
 [![Email](https://img.shields.io/badge/Email-sebastian.cordobat%40proton.me-red)](mailto:sebastian.cordobat@proton.me)
 
 ## About Me
 
-I'm a quantitative researcher and aspiring trader passionate about applying rigorous mathematics and machine learning to financial markets. Currently pursuing an MSc in Mathematics and Finance at Imperial College London (funded by Fundación Ramón Areces scholarship), I combine a First Class Honours degree in Mathematics (85%) with hands-on experience in systematic trading, financial modeling, and software development.
+Aspiring quantitative researcher passionate about applying rigorous mathematics and machine learning to financial markets. Currently pursuing an MSc in Mathematics and Finance at Imperial College London (funded by Fundación Ramón Areces scholarship), I combine a First Class Honours degree in Mathematics (85%) with hands-on experience in machine learning, financial modeling, and software development.
 
 **What drives me**: Personal experience with the 2008 financial crisis shaped my commitment to developing more accurate quantitative models. I'm fascinated by markets at the intersection of mathematics, technology, and real-world impact.
 
 ## Current Work
 
-**(WIP) Paper Replication and Extension**: [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)
-- Authors present a novel use of the signature transform in conjunction with a 2-step LASSO regression model
-- Regression model used to predict freight marketplace rates for Amazon
-- Aim: replicate results and deploy methodology to predict World Container Index for maritime freight rates
-
 **Quantitative Trader & Researcher** @ Team Delta, QTC Alpha Fund (Imperial College)
-- Developing systematic trading strategies for US equities and crypto markets under ex-JP Morgan researcher supervision
-- Built Python-based mean-reversion strategy using z-score triggers with dynamic position management
-- Statistical validation via Monte Carlo permutations on minute-level tick data
 
 ## Featured Projects
+
+### UK Gas Demand Forecasting II: 
+
+- **Core Method:** Adapted my own methodology (in turn adapted from [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)) to model the physical dynamics of UK natural gas demand.
+- **Implementation Challenges:** My original "local normalization" (Z-scoring) failed for gas forecasting, where absolute temperature levels drive demand. Additionally, the linear model could not capture the non-linearity of thermal efficiency in extreme cold.
+- **Key Modifications:**
+    - **Physics-Aware Normalization:** Replaced window-based scaling with global scaling to preserve absolute thermal signals (global scaling is acceptable for weather data as it is considered stationary).
+    - **Global-Soft Weighting:** Pivoted to a globally-weighted Ridge Regression (Temperature $\approx$ 0.1) to utilize the full history while retaining soft regime-switching for structural breaks.
+    - **Capturing Non-Linearity:** Computed level 3 signature on features to capture convexity in the data.
+- **Results:** Achieved a **5.96% MAPE** (7-day ahead) and **7.92% MAPE** (14-day ahead), outperforming standard industry benchmarks [10%](https://www.mdpi.com/1996-1073/14/16/4905) and competing with commercial utility-grade models with a simple dataset.
+
+### Paper Replication: [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)
+
+- **Core Method:** Replicates the authors' novel use of the signature transform (a "universal feature extractor") combined with an Adaptive Two-Step LASSO regression model
+- **Implementation Challenges:** While the original paper utilized Amazon's proprietary dataset (100+ internal factors) to predict freight rates, replicating the methodology on public data (Consumer Loans) required significant algorithmic restructuring.
+- **Key Modifications:** To achieve the authors' reported accuracy without their proprietary data infrastructure, the implementation required:
+    - **Strict Local Normalization:** Replacing global scaling with window-based Z-scoring to eliminate lookahead bias while maintaining signal.
+    - **Momentum-Based Targeting:** Shifting from predicting raw levels (which caused mean-reversion errors) to predicting normalized log-changes to capture directional trends.
+    - **Autoregressive Signatures:** Augmenting the feature set with the signature of the target variable ($y$) itself, to capture momentum in the absence of internal signals.
+    - **Robust Regularization:** Replacing auhtors' standard OLS refitting with `RidgeCV` to handle the extreme multicollinearity (condition numbers $>10^{16}$) inherent in signature features.
+- **Results:** The modified model achieved a **1.07% MAPE** and **70.6% Directional Accuracy** on the validation set, reproducing the paper's claim of high-fidelity quarterly forecasting.
 
 ### High-Frequency Price Movement Prediction
 Deep learning classifier for order book analysis achieving **71.29% validation accuracy**
@@ -68,7 +81,7 @@ Built complete feedforward network without ML libraries
 - Data: Pandas, NumPy, SciPy
 - Viz: Matplotlib, Seaborn, Plotly
 
-**Finance & Trading**: Alpaca API • Market Microstructure • Statistical Arbitrage • Options Pricing • Time Series Analysis
+**Finance & Trading**: Alpaca API • Market Microstructure • Options Pricing • Time Series Forecasting
 
 **Mathematical Expertise**: Statistics • Probability • Differential Equations • Topology • Optimization • Monte Carlo Methods
 
