@@ -17,60 +17,20 @@ Aspiring quantitative researcher passionate about applying rigorous mathematics 
 
 ## Featured Projects
 
-### UK Gas Demand Forecasting II: 
+### UK Gas Demand Forecasting II: Signature Transform [(Link)](https://github.com/tessella/gas-forecasting-II)
+Physics-aware model adapting the signature transform to capture non-linear thermal dynamics. Replaced standard scaling with global normalization and Level-3 signatures to preserve absolute thermal signals, achieving **5.96% MAPE** (7-day ahead), outperforming the ~10% industry benchmark.
 
-- **Core Method:** Adapted my own methodology (in turn adapted from [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)) to model the physical dynamics of UK natural gas demand.
-- **Implementation Challenges:** My original "local normalization" (Z-scoring) failed for gas forecasting, where absolute temperature levels drive demand. Additionally, the linear model could not capture the non-linearity of thermal efficiency in extreme cold.
-- **Key Modifications:**
-    - **Physics-Aware Normalization:** Replaced window-based scaling with global scaling to preserve absolute thermal signals (global scaling is acceptable for weather data as it is considered stationary).
-    - **Global-Soft Weighting:** Pivoted to a globally-weighted Ridge Regression (Temperature $\approx$ 0.1) to utilize the full history while retaining soft regime-switching for structural breaks.
-    - **Capturing Non-Linearity:** Computed level 3 signature on features to capture convexity in the data.
-- **Results:** Achieved a **5.96% MAPE** (7-day ahead) and **7.92% MAPE** (14-day ahead), outperforming standard industry benchmarks [10%](https://www.mdpi.com/1996-1073/14/16/4905) and competing with commercial utility-grade models with a simple dataset.
+### Paper Replication: Consumer Loans Forecasting [(Link)](https://github.com/tessella/paper-replication-signature-transform)
+Replication and extension of [Gu et al.'s (2025)](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251) Adaptive Two-Step LASSO. Engineered strict local normalization and momentum-based targeting to eliminate lookahead bias in public data. The enhanced model achieved **1.07% MAPE** and **70.6% Directional Accuracy**, validating the efficacy of signature features for quarterly planning.
 
-### Paper Replication: [Transportation Marketplace Rate Forecast Using Signature Transform](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251)
+### High-Frequency Price Prediction [(Link)](https://github.com/tessella/High-frequency-price-movement-prediction)
+Deep learning classifier for Limit Order Book (LOB) analysis. Engineered features from 4-level depth data (bid/ask volumes, imbalances) and compared FFNN vs. RNN architectures, achieving **71.29% validation accuracy** using TensorFlow/Keras.
 
-- **Core Method:** Replicates the authors' novel use of the signature transform (a "universal feature extractor") combined with an Adaptive Two-Step LASSO regression model
-- **Implementation Challenges:** While the original paper utilized Amazon's proprietary dataset (100+ internal factors) to predict freight rates, replicating the methodology on public data (Consumer Loans) required significant algorithmic restructuring.
-- **Key Modifications:** To achieve the authors' reported accuracy without their proprietary data infrastructure, the implementation required:
-    - **Strict Local Normalization:** Replacing global scaling with window-based Z-scoring to eliminate lookahead bias while maintaining signal.
-    - **Momentum-Based Targeting:** Shifting from predicting raw levels (which caused mean-reversion errors) to predicting normalized log-changes to capture directional trends.
-    - **Autoregressive Signatures:** Augmenting the feature set with the signature of the target variable ($y$) itself, to capture momentum in the absence of internal signals.
-    - **Robust Regularization:** Replacing auhtors' standard OLS refitting with `RidgeCV` to handle the extreme multicollinearity (condition numbers $>10^{16}$) inherent in signature features.
-- **Results:** The modified model achieved a **1.07% MAPE** and **70.6% Directional Accuracy** on the validation set, reproducing the paper's claim of high-fidelity quarterly forecasting.
+### UK Gas Demand Forecasting I: XGBoost [(Link)](https://github.com/tessella/UK-Gas-Demand-Forecasting)
+Gradient boosting regression model focused on domain-specific feature engineering. Developed a custom windchill index to better translate weather data into demand signals, achieving an **R² = 0.951**.
 
-### High-Frequency Price Movement Prediction
-Deep learning classifier for order book analysis achieving **71.29% validation accuracy**
-- Feature engineering from 4-level limit order book data (bid/ask volumes, depth imbalances, concentration metrics)
-- Compared feedforward vs. recurrent neural network architectures
-- **Tech**: Python, TensorFlow/Keras, Pandas, NumPy
-
-### UK Gas Demand Forecasting
-Gradient boosting regression model with **R² = 0.951**
-- Engineered windchill index combining temperature and wind data
-- Demonstrated domain knowledge translation into predictive features
-- **Tech**: Python, XGBoost, Sklearn, Feature Engineering
-
-### Quantitative Risk Management
-#### Tesla Risk Forecasting with EVT
-ARCH Models & Extreme Value Theory
-- Implemented GARCH(1,1) volatility modeling on Tesla returns
-- Applied Extreme Value Theory with GPD for tail risk
-- Compared Normal, Student-t, and GPD residual distributions
-- Generated out-of-sample VaR & ES forecasts at 95% and 99% levels
-- **Tech**: Python, ARCH, EVT, Risk Metrics, Backtesting, Statistical Testing
-#### DOG ETF Risk Analysis</h3>
-Comparative VaR & ES Forecasting   
-- Historical Simulation with 500-day rolling window
-- Filtered Historical Simulation with EWMA (α=0.06)
-- FHS-GARCH(1,1) for dynamic volatility modeling
-- FHS-EWMA achieved best performance across coverage tests
-- **Tech**: Python, FHS, EWMA, ARCH, Statistical Testing, Backtesting
-
-### Neural Networks from Scratch
-Built complete feedforward network without ML libraries
-- Gradient descent and cost function optimization implemented manually
-- Developed thorough understanding of ML fundamentals
-- **Tech**: C, Manual Memory Management, Core ML Algorithms
+### Neural Networks from Scratch [(Link)](https://github.com/tessella/xor-problem-nn-c)
+Feedforward neural network built entirely in **C** without ML libraries. Features manual memory management, ground-up implementation of gradient descent, and cost function optimization to demonstrate core ML fundamentals.
 
 ## Technical Stack
 
@@ -114,7 +74,7 @@ Built complete feedforward network without ML libraries
 ## Get in Touch
 
 - 📧 Email: sebastian.cordobat@proton.me
-- 💼 LinkedIn: [Connect with me](#) <!-- Add your LinkedIn URL -->
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/sebastian-cordoba-topete-622960271/)
 - 📍 Location: London, UK
 - 🗺️ Work permits (no visa required): United Kingdom, USA, European Union
 ---
