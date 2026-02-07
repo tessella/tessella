@@ -17,9 +17,6 @@ Aspiring quantitative researcher passionate about applying rigorous mathematics 
 
 ## Featured Projects
 
-### UK Gas Demand Forecasting II: Signature Transform [(Link)](https://github.com/tessella/gas-forecasting-II)
-Physics-aware model adapting the signature transform to capture non-linear thermal dynamics. Replaced standard scaling with global normalization and Level-3 signatures to preserve absolute thermal signals, achieving **5.88% MAPE** (7-day ahead), outperforming the ~10% industry benchmark.
-
 ### Paper Replication: Consumer Loans Forecasting [(Link)](https://github.com/tessella/paper-replication-signature-transform)
 Replication and extension of [Gu et al.'s (2025)](https://pubsonline.informs.org/doi/10.1287/inte.2025.0251) Adaptive Two-Step LASSO. Engineered strict local normalization and momentum-based targeting to eliminate lookahead bias in public data. The enhanced model achieved **1.07% MAPE** and **70.6% Directional Accuracy**, validating the efficacy of signature features for quarterly planning.
 
