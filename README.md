@@ -43,10 +43,14 @@ Self-contained single-file solutions to past papers from Imperial's Computing in
 **Quantitative Trader & Researcher** — Team Delta, QTC Alpha Fund, Imperial College (current)
 
 **Solutions Analyst** — LexisNexis, London (2023–2025)
-Led patent-intelligence delivery for Fortune 500 tech and defence clients, ran classifier projects of 10–40+ components, and was technical lead on a £1M+ portfolio across three accounts. Built AI classifiers over a 70M+ patent database, including work with Google DeepMind on technology identification.
+
+Led end-to-end delivery of ML-based patent-classifier taxonomies (10–40+ components) for Fortune 500 technology and defense clients, as technical lead on three major engagements with a 3–4 analyst team.
+
+Independently built a proof-of-concept React/Node.js webapp visualising patent-acquisition flows as an interactive D3.js directed graph (year filtering, cumulative view, portfolio-size node scaling).
 
 **Quantitative Investment Analyst** — SafeBrok Europe, Madrid (2022)
-Contributed to 20% fund growth through a downturn, and automated investment screening via a Python–Morningstar pipeline.
+
+Automated the detection of investment opportunities by developing a Python based API integration with morningstar.com, enhancing investment decision making processes.
 
 ## Education
 
