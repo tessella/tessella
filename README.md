@@ -15,6 +15,13 @@ Right now I trade and research for **Team Delta / QTC Alpha Fund** at Imperial.
 
 ## Featured projects
 
+### Variance-risk-premium vol toolkit — [vrp-vol-toolkit](https://github.com/tessella/vrp-vol-toolkit)
+The core of a larger private VRP options stack. It builds an implied-vol surface straight from option quotes, implying the forward
+and discount factor from put-call parity, then solving IV with a vectorised bisection. Interpolates off-grid with a cubic spline on
+total variance in log-moneyness. Alongside it sit a family of realised-vol estimators (Yang-Zhang, Garman-Klass, Parkinson) and an RFSV
+rough-vol predictor (Gatheral–Jaisson–Rosenbaum) with Hurst estimation, the Black-Scholes Greeks, point-in-time
+RV−IV signals, and a small delta-hedging engine that tracks transaction costs and financing. The strategy-selection, portfolio-construction and validation layers are kept private.
+
 ### Replicating a signature-transform forecaster — [signature-transform-replication](https://github.com/tessella/signature-transform-replication)
 A from-scratch replication of [Gu et al. (2025)](https://doi.org/10.1287/inte.2023.0067), an Adaptive Two-Step LASSO that weights history by signature-kernel distance. I found the published algorithm quietly degenerates to a last-value predictor (an anchor self-matching bug), and carries a lookahead-bias flaw that I fixed with expanding-window normalisation. The best honest result is **0.75% MAPE** at 12 weeks against a **1.02%** naive carry-forward baseline — the paper's claimed 0.31% was not reproducible from the public feature set.
 
