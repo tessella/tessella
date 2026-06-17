@@ -9,8 +9,6 @@ MSc Mathematics & Finance @ Imperial College London. I work on quantitative rese
 
 I'm finishing an MSc in Mathematics and Finance at Imperial (Ramón Areces Foundation full scholarship), after a First Class Honours degree in Mathematics from Aberdeen (85%). Before Imperial I spent two years building AI patent classifiers at LexisNexis and a year as a quant analyst in Madrid.
 
-Living through the 2008 crisis is what got me into this!
-
 Right now I trade and research for **Team Delta / QTC Alpha Fund** at Imperial.
 
 ## Featured projects
