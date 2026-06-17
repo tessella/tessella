@@ -9,14 +9,14 @@ MSc Mathematics & Finance @ Imperial College London. I work on quantitative rese
 
 I'm finishing an MSc in Mathematics and Finance at Imperial (Ramón Areces Foundation full scholarship), after a First Class Honours degree in Mathematics from Aberdeen (85%). Before Imperial I spent two years building AI patent classifiers at LexisNexis and a year as a quant analyst in Madrid.
 
-Living through the 2008 crisis is what got me into this — I care about models that hold up out-of-sample, not ones that look good in a backtest. A lot of my work is checking whether a claimed result actually replicates, and being honest when it doesn't.
+Living through the 2008 crisis is what got me into this!
 
 Right now I trade and research for **Team Delta / QTC Alpha Fund** at Imperial.
 
 ## Featured projects
 
 ### Replicating a signature-transform forecaster — [signature-transform-replication](https://github.com/tessella/signature-transform-replication)
-A from-scratch replication of [Gu et al. (2025)](https://doi.org/10.1287/inte.2023.0067), an Adaptive Two-Step LASSO that weights history by signature-kernel distance. I found the published algorithm quietly degenerates to a last-value predictor (an anchor self-matching bug), and carries a lookahead-bias flaw that I fixed with expanding-window normalisation. The best honest result is **0.75% MAPE** at 12 weeks against a **1.02%** naive carry-forward baseline — the paper's claimed 0.31% was not reproducible from the public feature set. The negative result is the point.
+A from-scratch replication of [Gu et al. (2025)](https://doi.org/10.1287/inte.2023.0067), an Adaptive Two-Step LASSO that weights history by signature-kernel distance. I found the published algorithm quietly degenerates to a last-value predictor (an anchor self-matching bug), and carries a lookahead-bias flaw that I fixed with expanding-window normalisation. The best honest result is **0.75% MAPE** at 12 weeks against a **1.02%** naive carry-forward baseline — the paper's claimed 0.31% was not reproducible from the public feature set.
 
 ### High-frequency price-movement prediction — [High-frequency-price-movement-prediction](https://github.com/tessella/High-frequency-price-movement-prediction)
 A deep-learning classifier for limit-order-book data. I engineered features from 4-level depth (bid/ask volumes, imbalances, pressures) and compared feedforward vs. recurrent architectures, reaching **71.3%** validation accuracy in TensorFlow/Keras.
@@ -25,10 +25,10 @@ A deep-learning classifier for limit-order-book data. I engineered features from
 Gradient-boosted regression where most of the work was domain feature engineering. I built a custom windchill index to turn raw weather into a demand signal, getting to **R² = 0.951**.
 
 ### A neural network in C — [xor-problem-nn-c](https://github.com/tessella/xor-problem-nn-c)
-A feedforward net written in plain C, no ML libraries: manual memory management, gradient descent and the cost function from the ground up. Built to make sure I actually understood the mechanics.
+A feedforward net written in plain C, no ML libraries: manual memory management, gradient descent and the cost function from the ground up.
 
 ### C++ exam solutions — [cpp-exam-prep](https://github.com/tessella/cpp-exam-prep)
-Self-contained single-file solutions to past papers from Imperial's Computing in C++ module — templates, RAII, polymorphism, and the numerical-methods staples (root-finding, LU decomposition, Monte Carlo).
+Self-contained single-file solutions to past papers from Imperial's Computing in C++ module: templates, RAII, polymorphism, and the numerical-methods staples (root-finding, LU decomposition, Monte Carlo).
 
 ## Tools
 
