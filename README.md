@@ -54,7 +54,7 @@ Automated the detection of investment opportunities by developing a Python based
 
 ## Education
 
-**Imperial College London** — PhD Computational Mathematics, CCMI Centre for Doctoral Training (2026–2030)
+**Imperial College London** — PhD Computational Mathematics, CCMI Centre for Doctoral Training (2026 start)
 
 **Imperial College London** — MSc Mathematics and Finance (2025–2026)
 Ramón Areces Foundation Scholar. Focus: machine learning, derivatives pricing, systematic trading, optimisation.
