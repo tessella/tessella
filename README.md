@@ -1,16 +1,13 @@
 # Sebastian Cordoba
 
-MSc Mathematics & Finance @ Imperial College London. I work on quantitative research and systematic trading — mostly machine learning applied to derivatives, market microstructure, and time-series forecasting.
+PhD student in Computational Mathematics @ Imperial College London. I work on quantitative research and systematic trading — mostly machine learning applied to derivatives, market microstructure, and time-series forecasting.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sebastian-cordoba-topete-622960271)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sebastian-cordoba-topete/)
 [![Email](https://img.shields.io/badge/Email-sebastian.cordobat%40proton.me-red)](mailto:sebastian.cordobat@proton.me)
 
 ## About
 
-I'm finishing an MSc in Mathematics and Finance at Imperial (Ramón Areces Foundation full scholarship), after a First Class Honours degree in Mathematics from Aberdeen (85%). Before Imperial I spent two years building AI patent classifiers at LexisNexis and a year as a quant analyst in Madrid.
-
-Right now I trade and research for **Team Delta / QTC Alpha Fund** at Imperial.
-
+I'm a PhD student in Computational Mathematics at Imperial's CCMI Centre for Doctoral Training. Before that I completed an MSc in Mathematics and Finance at Imperial (Ramón Areces Foundation full scholarship), after a First Class Honours degree in Mathematics from Aberdeen (85%). Before Imperial I spent two years building AI patent classifiers at LexisNexis and a year as a quant analyst in Madrid.
 ## Featured projects
 
 ### Variance-risk-premium vol toolkit — [vrp-vol-toolkit](https://github.com/tessella/vrp-vol-toolkit)
@@ -45,8 +42,6 @@ Self-contained single-file solutions to past papers from Imperial's Computing in
 
 ## Experience
 
-**Quantitative Trader & Researcher** — Team Delta, QTC Alpha Fund, Imperial College (current)
-
 **Solutions Analyst** — LexisNexis, London (2023–2025)
 
 Led end-to-end delivery of ML-based patent-classifier taxonomies (10–40+ components) for Fortune 500 technology and defense clients, as technical lead on three major engagements with a 3–4 analyst team.
@@ -59,6 +54,8 @@ Automated the detection of investment opportunities by developing a Python based
 
 ## Education
 
+**Imperial College London** — PhD Computational Mathematics, CCMI Centre for Doctoral Training (2026–2030)
+
 **Imperial College London** — MSc Mathematics and Finance (2025–2026)
 Ramón Areces Foundation Scholar. Focus: machine learning, derivatives pricing, systematic trading, optimisation.
 
@@ -68,7 +65,7 @@ First Class Honours, 85%. Dissertation on smooth manifolds and polynomial vector
 ## Contact
 
 - Email: sebastian.cordobat@proton.me
-- LinkedIn: [sebastian-cordoba-topete](https://www.linkedin.com/in/sebastian-cordoba-topete-622960271/)
+- LinkedIn: [sebastian-cordoba-topete](https://www.linkedin.com/in/sebastian-cordoba-topete/)
 - Based in London. Work permits (no visa needed): UK, USA, EU.
 
-Open to roles in quantitative trading, market making, and quantitative research.
+Open to internships and research collaborations in quantitative trading and quantitative research.
